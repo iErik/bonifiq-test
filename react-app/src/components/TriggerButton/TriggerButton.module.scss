@@ -1,0 +1,25 @@
+@use '@styles/helpers';
+
+.triggerButton {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background-color: helpers.color-primary();
+  border: 2px solid helpers.color-foreground();
+
+  color: helpers.color-foreground();
+  cursor: pointer;
+
+  & > .icon {
+    transition: transform 300ms ease;
+  }
+
+  &.-opened {
+    & > .icon { transform: rotate(180deg); }
+  }
+}

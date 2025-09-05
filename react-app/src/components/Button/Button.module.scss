@@ -1,0 +1,19 @@
+@use '@styles/helpers';
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+
+  border: 1px solid helpers.color-foreground(20);
+  background: helpers.color-foreground(10);
+  border-radius: 6px;
+
+  transition: background 300ms ease;
+  cursor: pointer;
+
+  &:hover {
+    background: helpers.color-foreground(20);
+  }
+}

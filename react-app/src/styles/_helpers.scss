@@ -1,0 +1,7 @@
+@function color-primary($shade: base) {
+  @return var(--color-primary-#{$shade});
+}
+
+@function color-foreground($shade: base) {
+  @return var(--color-foreground-#{$shade});
+}

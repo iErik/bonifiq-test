@@ -1,0 +1,32 @@
+@use '@styles/helpers';
+
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 320px;
+  max-height: 600px;
+  height: 100%;
+  width: 100%;
+
+  background-color: helpers.color-primary();
+
+  & > .error {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 0 20px;
+
+    & > .errorIcn { }
+
+    & > .errorMsg {
+      font-size: 19px;
+    }
+  }
+}

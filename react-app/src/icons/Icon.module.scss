@@ -1,0 +1,5 @@
+.iconWrapper {
+  display: flex;
+
+  & > svg { fill: currentColor; }
+}
