@@ -16,7 +16,7 @@ cd react-app
 pnpm install
 ```
 
-3. Inice o servidor local
+3. Inicie o servidor local
 ```bash
 pnpm dev
 ```
