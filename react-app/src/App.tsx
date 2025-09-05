@@ -36,7 +36,6 @@ export default function App() {
       }, '*')
     }, showWidget ? 300 : 0)
   }
-    console.log({ userId })
 
   return (
     <>
