@@ -10,6 +10,21 @@
 // website that is being served on the internet, but that
 // wouldn't work for testing locally.
 
+
+// The test's description seemed to suggest that the widget
+// trigger button was supposed to be declared and inserted
+// through this same script here, since it was implied that
+// this same trigger button would be included inside the
+// iframe, however I decided to take some liberty to go with
+// another approach, in this test the trigger button for the
+// widget is also a React component, this way we can take
+// advantage of the React framework to build a more reliable
+// and maintanable application.
+//
+// And besides that, having to add and remove and iframe to
+// the webpage on every click event can be costly, so
+// appending it to the page just once is more efficient.
+
 (function () {
   const IFRAME_URL = 'http://localhost:3000'
 
