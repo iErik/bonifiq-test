@@ -8,7 +8,6 @@ type TriggerButtonProps = {
   onClick: (ev: MouseEvent<HTMLButtonElement>) => any
 }
 
-console.log({ styles })
 export default function TriggerButton(
   props: TriggerButtonProps
 ) {
